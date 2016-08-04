@@ -2,7 +2,8 @@ import sys
 
 with open(sys.argv[1]) as f:
 	s = f.readlines()
-	s = ''.join(s[4:21])
+	# print ''.join(s[4:20])
+	s = ''.join(s[4:22])
 	print(s.encode('hex'))
 
 ## cut
